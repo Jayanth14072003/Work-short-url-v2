@@ -15,9 +15,7 @@ ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
 DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
-ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 
-ADMINS.append(Id, Owned Id)
 
 
 #  Optionnal variables
