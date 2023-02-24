@@ -17,7 +17,7 @@ DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url")
 OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
 
 #  Optionnal variables
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "")) 
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", '')) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", '') # For Force Subscription
 BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "True") # true if forward should be avoided
 WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", '') # image when someone hit /start # image when someone hit /start
